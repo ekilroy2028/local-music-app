@@ -43,7 +43,7 @@ function homePage(venueList) {
       '<div class="section-label">// ' + venueList.length + ' venues found</div>' +
       '<div class="venue-grid">' + cards + '</div>' +
     '</main>' +
-    '<footer class="site-footer"><p>Local Sounds &copy; 2025 &mdash; Built for music lovers</p></footer>' +
+    '<footer class="site-footer"><p>Local Sounds &copy; 2026 &mdash; Built for music lovers</p></footer>' +
     '</body></html>';
 }
 
@@ -104,7 +104,7 @@ function detailPage(venue) {
         '</section>' +
       '</div>' +
     '</main>' +
-    '<footer class="site-footer"><p>Local Sounds &copy; 2025</p></footer>' +
+    '<footer class="site-footer"><p>Local Sounds &copy; 2026</p></footer>' +
     '</body></html>';
 }
 
