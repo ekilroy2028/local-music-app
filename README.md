@@ -38,9 +38,6 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-Videos | Library | Loom - 7 June 2026 - Watch Video
-
-
   <div>
     <a href="https://www.loom.com/share/611546999c774c37b03dde1129166863">
       <p>Videos | Library | Loom - 7 June 2026 - Watch Video</p>
@@ -50,9 +47,6 @@ Videos | Library | Loom - 7 June 2026 - Watch Video
     </a>
   </div>
 
-
-
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  Add GIF tool here
