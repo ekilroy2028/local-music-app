@@ -30,7 +30,7 @@ The following **additional** features are implemented:
       • Neon glow effect on hover 
       • Upcoming show tables on each detailed page
       • Staggered card fade-in animations
-      • Animation - Psychedelic gradient shifting in the background & pulse blur in title too give that music feel (I experimented with this one. Not perfect or creative/too plain, but it'll           do for now)
+      • Animation - Psychedelic gradient shifting in the background & pulse blur in title too give that music feel (I  experimented with this one- "@keyframes". Not perfect or creative/too plain, but it'll do for now.)
 
 ## Video Walkthrough
 
