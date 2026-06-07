@@ -23,7 +23,7 @@ function homePage(venueList) {
       '</article>';
   }).join("");
 
-  return `<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>Local Sounds</title><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="/style.css"/></head><body><header class="site-header"><div class="header-inner"><div class="logo">🎵 LOCAL<span>SOUNDS</span></div><p class="tagline">The underground guide to live music in your city</p></div><div class="header-wave"></div></header><main class="main-content"><div class="section-label">// ${venueList.length} venues found</div><div class="venue-grid">${cards}</div></main><footer class="site-footer"><p>Local Sounds &copy; 2026 &mdash; Built for music lovers</p></footer></body></html>`;
+  return `<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>Local Sounds</title><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"/><link rel="stylesheet" href="/style.css"/></head><body><header class="site-header"><div class="header-inner"><div class="logo">🎵 LOCAL<span>SOUNDS</span></div><p class="tagline">The underground guide to live music in your city</p></div><div class="header-wave"></div></header><main class="main-content"><div class="section-label">// ${venueList.length} venues found</div><div class="venue-grid">${cards}</div></main><footer class="site-footer"><p>Local Sounds &copy; 2026 &mdash; Built for music lovers</p></footer></body></html>`;
 }
 
 function detailPage(venue) {
@@ -45,7 +45,7 @@ function detailPage(venue) {
     '<title>' + venue.name + ' — Local Sounds</title>' +
     '<link rel="preconnect" href="https://fonts.googleapis.com">' +
     '<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">' +
-    '<link rel="stylesheet" href="/style.css"/>' +
+    '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"/><link rel="stylesheet" href="/style.css"/>' +
     '</head><body>' +
     '<header class="site-header">' +
       '<div class="header-inner"><a href="/" class="logo">🎵 LOCAL<span>SOUNDS</span></a></div>' +
@@ -89,7 +89,7 @@ function detailPage(venue) {
 
 function notFoundPage() {
   return '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><title>404 — Local Sounds</title>' +
-    '<link rel="stylesheet" href="/style.css"/></head><body>' +
+    '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"/><link rel="stylesheet" href="/style.css"/></head><body>' +
     '<main class="main-content not-found">' +
     '<div class="not-found-code">404</div>' +
     '<h1>Page not found</h1>' +
