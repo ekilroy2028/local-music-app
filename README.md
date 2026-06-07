@@ -26,7 +26,11 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [X] List anything else that you added to improve the site's functionality!
+- [X] List anything else that you added to improve the site's functionality! (see below)
+      • Neon glow effect on hover 
+      • Upcoming show tables on each detailed page
+      • Staggered card fade-in animations
+      • Animation - Psychedelic gradient shifting in the background & pulse blur in title too give that music feel (I experimented with this one. Not perfect or creative/too plain, but it'll           do for now)
 
 ## Video Walkthrough
 
@@ -45,7 +49,7 @@ GIF created with ...  Add GIF tool here
 
 ## Notes
 
-Describe any challenges encountered while building the app or any additional context you'd like to add.
+It seems like whenever I try to make a page through the terminal, I always get errors, mess things up, and do a lot of debugging. After that, it's smooth sailing. That's driving me nuts, and I'm not quite sure what I'm doing wrong. I get through and debug everything, but on Monday I'm going to have to see and talk to somebody about this, or when the study sessions or fix it garage.
 
 ## License
 
