@@ -48,7 +48,7 @@ function detailPage(venue) {
     '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"/><link rel="stylesheet" href="/style.css"/>' +
     '</head><body>' +
     '<header class="site-header">' +
-      '<div class="header-inner"><a href="/" class="logo">🎵 LOCAL<span>SOUNDS</span></a></div>' +
+      '<div class="header-inner"><a href="/venues" class="logo">🎵 LOCAL<span>SOUNDS</span></a></div>' +
       '<div class="header-wave"></div>' +
     '</header>' +
     '<main class="main-content detail-main">' +
@@ -98,7 +98,9 @@ function notFoundPage() {
     '</main></body></html>';
 }
 
-app.get("/", function(req, res) {
+app.get("/", function(req, res) { res.redirect("/venues"); });
+
+app.get("/venues", function(req, res) {
   res.send(homePage(venues));
 });
 

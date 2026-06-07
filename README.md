@@ -38,12 +38,12 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-  <div>
-    <a href="https://www.loom.com/share/611546999c774c37b03dde1129166863">
+<div>
+    <a href="https://www.loom.com/share/0b6976e442df45849ab97a092e754c55">
       <p>Videos | Library | Loom - 7 June 2026 - Watch Video</p>
     </a>
-    <a href="https://www.loom.com/share/611546999c774c37b03dde1129166863">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/611546999c774c37b03dde1129166863-0ae093b5068c30cd-full-play.gif#t=0.1">
+    <a href="https://www.loom.com/share/0b6976e442df45849ab97a092e754c55">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/0b6976e442df45849ab97a092e754c55-1ff93ab26b4632ad-full-play.gif#t=0.1">
     </a>
   </div>
 
