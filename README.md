@@ -1,10 +1,10 @@
-# WEB103 Project 1 - *Name of App Here*
+# WEB103 Project 1 - Local Sounds
 
-Submitted by: **Your name here**
+Submitted by: Elizabeth Kilroy
 
-About this web app: **App description here**
+About this web app: Live music events you can enjoy locally around the Atlanta area.
 
-Time spent: **X** hours
+Time spent: 24 hours
 
 ## Required Features
 
