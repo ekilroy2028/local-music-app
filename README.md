@@ -47,7 +47,7 @@ Here's a walkthrough of implemented required features:
     </a>
   </div>
 
-
+![Walkthrough](local-music-app.gif)
 
 ## Notes
 
