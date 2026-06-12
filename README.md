@@ -2,9 +2,9 @@ Submitted by: Elizabeth Kilroy
 
 About this web app: Live music events you can enjoy locally around the Atlanta area.
 
-Time spent: 24 hours
 
-Time spent: **X** hours
+
+Time spent: **4** hours
 
 ## Required Features
 
