@@ -1,6 +1,6 @@
 const express = require("express");
 const path = require("path");
-require("dotenv").config();
+require("dotenv").config({ path: require("path").resolve(__dirname, "../.env") });
 
 const venueRoutes = require("./routes/venues");
 
