@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, "../client/src")));
 app.use("/api/venues", venueRoutes);
 
 // All other routes serve the frontend
-app.get("*", (req, res) => {
+app.get("/{*path}", (req, res) => {
   res.sendFile(path.join(__dirname, "../client/src/index.html"));
 });
 
