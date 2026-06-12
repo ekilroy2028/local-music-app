@@ -1,61 +1,50 @@
-# WEB103 Project 1 - Local Sounds
-
 Submitted by: Elizabeth Kilroy
 
 About this web app: Live music events you can enjoy locally around the Atlanta area.
 
 Time spent: 24 hours
 
+Time spent: **X** hours
+
 ## Required Features
 
 The following **required** functionality is completed:
 
 <!-- Make sure to check off completed functionality below -->
-- [X] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
-- [X] **The web app displays a title**
-- [X] **The web app displays at least five unique list items, each with at least three displayed attributes (such as title, text, and image)**
-- [X] **The user can click on each item in the list to see a detailed view of it, including all database fields**
-  - [X] **Each detail view should be a unique endpoint, such as as `localhost:3000/bosses/crystalguardian` and `localhost:3000/mantislords`**
-  - [X] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
-- [X] **The web app serves an appropriate 404 page when no matching route is defined**
-- [X] **The web app is styled using Picocss**
+- [ ] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
+- [ ] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
+  - [ ] **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
+  - [ ]  **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT * FROM tablename;' to display your table contents.**
+
 
 The following **optional** features are implemented:
 
-- [X] The web app displays items in a unique format, such as cards rather than lists or animated list items
+- [ ] The user can search for items by a specific attribute
 
 The following **additional** features are implemented:
 
-- [X] List anything else that you added to improve the site's functionality! (see below)
-      • Neon glow effect on hover 
-      • Upcoming show tables on each detailed page
-      • Staggered card fade-in animations
-      • Animation - Psychedelic gradient shifting in the background & pulse blur in title too give that music feel (I  experimented with this one- "@keyframes". Not perfect or creative/too plain, but it'll do for now.)
+- [ ] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
-**Note: please be sure to 
-
 Here's a walkthrough of implemented required features:
 
-<div>
-    <a href="https://www.loom.com/share/0b6976e442df45849ab97a092e754c55">
-      <p>Videos | Library | Loom - 7 June 2026 - Watch Video</p>
-    </a>
-    <a href="https://www.loom.com/share/0b6976e442df45849ab97a092e754c55">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/0b6976e442df45849ab97a092e754c55-1ff93ab26b4632ad-full-play.gif#t=0.1">
-    </a>
-  </div>
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-![Walkthrough](local-music-app.gif)
+<!-- Replace this with whatever GIF tool you used! -->
+GIF created with ...  GIF tool here
+<!-- Recommended tools:
+[Kap](https://getkap.co/) for macOS
+[ScreenToGif](https://www.screentogif.com/) for Windows
+[peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
 
-It seems like whenever I try to make a page through the terminal, I always get errors, mess things up, and do a lot of debugging. After that, it's smooth sailing. That's driving me nuts, and I'm not quite sure what I'm doing wrong. I get through and debug everything, but on Monday I'm going to have to see and talk to somebody about this, or when the study sessions or fix it garage.
+Describe any challenges encountered while building the app or any additional context you'd like to add.
 
 ## License
 
-Copyright [2026] [Elizabeth Kilroy]
+Copyright [yyyy] [name of copyright owner]
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
