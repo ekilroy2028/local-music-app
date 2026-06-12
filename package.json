@@ -4,7 +4,7 @@
   "description": "Local Sounds - live music venues in Atlanta, now with PostgreSQL",
   "main": "server/server.js",
   "scripts": {
-    "start": "node server/server.js",
+    "start": "dotenvx run -- node server/server.js",
     "dev": "nodemon server/server.js"
   },
   "keywords": [],
@@ -13,7 +13,7 @@
   "type": "commonjs",
   "dependencies": {
     "dotenv": "^17.4.2",
-    "express": "^5.2.1",
+    "express": "^4.22.2",
     "pg": "^8.13.3"
   },
   "devDependencies": {
