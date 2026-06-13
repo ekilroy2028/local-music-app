@@ -32,14 +32,21 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
+<div>
+    <a href="https://www.loom.com/share/1fb47995509e42ec89e6171768295226">
+      <p>Videos | Library | Loom - 13 June 2026 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/1fb47995509e42ec89e6171768295226">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/1fb47995509e42ec89e6171768295226-3c49882cdb686c04-full-play.gif#t=0.1">
+    </a>
+  </div>
+
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  GIF tool here
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+Videos | Library | Loom - 13 June 2026 - Watch Video
+
+
 
 ## Notes
 
