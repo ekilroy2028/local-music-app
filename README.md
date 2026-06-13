@@ -22,11 +22,11 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 - [X] The user can search for items by a specific attribute
-  - Users can search venues in real time by name, genre, neighborhood, or vibe
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you added to improve the site's functionality!
+- [X] The user can filter venues by date and time
+- [X] The user can view detailed information about each venue
 
 ## Video Walkthrough
 
@@ -43,7 +43,12 @@ GIF created with ...  GIF tool here
 
 ## Notes
 
-The biggest challenge was a conflict between a globally installed tool called dotenvx on my Mac and our dotenv setup, which caused the DATABASE_URL to be empty when the database tried to connect. The fix was configuring dotenvx to load the .env file before Node starts. Switching from Express 5 back to Express 4 also resolved some silent crashes during setup.
+Based on feedback from Unit 1, I refactored the app to properly separate HTML, JavaScript, and data concerns into a client/server architecture. The Unit 1 version built entire HTML pages through string concatenation inside server.js, which was hard to read and maintain. In Unit 2, server.js only handles API routes and returns JSON, while all HTML lives in index.html and rendering logic lives in app.js.
+
+The biggest technical challenge was a conflict between a globally installed tool dotenvx on my Mac and our dotenv setup, which caused the DATABASE_URL to be empty when the database tried to connect. The fix was configuring dotenvx to load the .env file before Node starts.
+
+I took all the feedback from Unit 1 and tried to apply it to Project 2. 
+
 
 ## License
 
