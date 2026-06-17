@@ -50,9 +50,9 @@ Videos | Library | Loom - 13 June 2026 - Watch Video
 
 ## Notes
 
-Based on feedback from Unit 1, I refactored the app to properly separate HTML, JavaScript, and data concerns into a client/server architecture. The Unit 1 version built entire HTML pages through string concatenation inside server.js, which was hard to read and maintain. In Unit 2, server.js only handles API routes and returns JSON, while all HTML lives in index.html and rendering logic lives in app.js.
+• Based on feedback from Unit 1, I refactored the app to properly separate HTML, JavaScript, and data concerns into a client/server architecture. The Unit 1 version built entire HTML pages through string concatenation inside server.js, which was hard to read and maintain. In Unit 2, server.js only handles API routes and returns JSON, while all HTML lives in index.html and rendering logic lives in app.js.
 
-The biggest technical challenge was a conflict between a globally installed tool dotenvx on my Mac and our dotenv setup, which caused the DATABASE_URL to be empty when the database tried to connect. The fix was configuring dotenvx to load the .env file before Node starts.
+•The biggest technical challenge was a conflict between a globally installed tool dotenvx on my Mac and our dotenv setup, which caused the DATABASE_URL to be empty when the database tried to connect. The fix was configuring dotenvx to load the .env file before Node starts.
 
 I took all the feedback from Unit 1 and tried to apply it to Project 2. 
 
